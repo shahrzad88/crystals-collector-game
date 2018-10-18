@@ -2,3 +2,8 @@ body {
     background-image: url('../images/background.jpg');
     background-color: aliceblue;
 }
+
+.gem {
+    width: 400px;
+    height: 400px;
+}

@@ -1,5 +1,7 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,10 +11,72 @@
     <script type="text/javascript" src = "assets/javascript/game.js"></script>
     <title>Crystals Collector Game</title>
 </head>
+
 <body>
-    <button class="gem"><img src="assets/images/heart.png" alt="Gem 1"></button>
-    <button class="gem"><img src="assets/images/diamond.jpg" alt="Gem 2"></button>
-    <button class="gem"><img src="assets/images/garnet.png" alt="Gem 3"></button>
-    <button class="gem"><img src="assets/images/tear.png" alt="Gem 4"></button>
+   
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <h1>CrystalCollector!</h1>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-md-6">
+                <h1 id="target-number"></h1>
+            </div>
+
+            <div class="col-md-2">
+
+                <div class="row">
+                    <p id="wins">Wins: 0</p>
+                </div>
+
+                <div class="row">
+                    <p id="losses">Losses: 0</p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-sm-2">
+                <button class="gem"><img src="assets/images/heart.png" alt="Gem 1"></button>
+            </div>
+
+            <div class="col-sm-2">
+                <button class="gem"><img src="assets/images/diamond.jpg" alt="Gem 2"></button>
+            </div>
+
+            <div class="col-sm-2">
+                <button class="gem"><img src="assets/images/garnet.png" alt="Gem 3"></button>
+            </div>
+
+            <div class="col-sm-2">
+                <button class="gem"><img src="assets/images/tear.png" alt="Gem 4"></button> 
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-6">
+                <p id="total-score">Your total score is:</p>
+            </div>
+            
+        </div>
+
+        <div class="row">
+            
+            <div class="col-md-6">
+                <h1 id="current-number">0</h1>
+            </div>
+                
+            </div>
+        
+    </div>
+   
 </body>
+
 </html>
